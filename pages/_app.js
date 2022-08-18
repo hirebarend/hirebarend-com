@@ -5,10 +5,10 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Barend Erasmus - Founder of Untitled Pages</title>
+        <title>Barend Erasmus | Certified Microsoft Solutions Architect</title>
 
         <meta
-          content="a Certified Microsoft Solutions Architect, designing and building systems for fintech companies using my 8+ years of experience in the software engineering industry."
+          content="Designing and building systems for fintech companies using my 8+ years of experience in the software engineering industry."
           name="description"
         />
 
