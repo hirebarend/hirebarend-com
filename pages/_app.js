@@ -1,7 +1,17 @@
 import 'tailwindcss/tailwind.css';
+import mixpanel from 'mixpanel-browser';
 import Head from 'next/head';
+import { useEffect } from 'react';
 
 function MyApp({ Component, pageProps }) {
+  useEffect(() => {
+    if (process.env.NODE_ENV === 'production') {
+      mixpanel.init('6570fb6b55412e8145762b070dd25c3b');
+
+      mixpanel.track('Page View');
+    }
+  }, []);
+
   return (
     <>
       <Head>
