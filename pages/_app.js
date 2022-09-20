@@ -15,10 +15,18 @@ function MyApp({ Component, pageProps }) {
   return (
     <>
       <Head>
-        <title>Barend Erasmus | Certified Microsoft Solutions Architect</title>
+        <title>
+          {pageProps.meta
+            ? pageProps.meta.title
+            : 'Certified Microsoft Solutions Architect | Hire Barend'}
+        </title>
 
         <meta
-          content="Designing and building systems for fintech companies using my 8+ years of experience in the software engineering industry."
+          content={
+            pageProps.meta
+              ? pageProps.meta.description
+              : 'Designing and building systems for fintech companies using my 8+ years of experience in the software engineering industry.'
+          }
           name="description"
         />
 
