@@ -12,7 +12,7 @@ export default function Home() {
         <div>
           <a
             className="border p-2 rounded uppercase hover:bg-black hover:text-white"
-            href="https://www.linkedin.com/in/hirebarend"
+            href="https://sshrt.link/bsukth"
             rel="noreferrer"
             target="_blank"
           >
