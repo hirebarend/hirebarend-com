@@ -25,7 +25,7 @@ function MyApp({ Component, pageProps }) {
           content={
             pageProps.meta
               ? pageProps.meta.description
-              : 'Designing and building systems for fintech companies using my 8+ years of experience in the software engineering industry.'
+              : 'Designing and building systems for companies using my 8+ years of experience in the software engineering industry.'
           }
           name="description"
         />

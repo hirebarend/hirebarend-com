@@ -27,7 +27,7 @@ export default function Home() {
             Hello, I'm Barend Erasmus
           </h1>
           <h2 className="font-normal text-xl md:text-2xl">
-            Designing and building systems for fintech companies
+            Designing and building systems for companies
           </h2>
         </div>
       </div>
