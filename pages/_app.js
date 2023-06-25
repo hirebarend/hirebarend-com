@@ -18,14 +18,14 @@ function MyApp({ Component, pageProps }) {
         <title>
           {pageProps.meta
             ? pageProps.meta.title
-            : 'Certified Microsoft Solutions Architect | Hire Barend'}
+            : 'Barend Erasmus | Technical Architect'}
         </title>
 
         <meta
           content={
             pageProps.meta
               ? pageProps.meta.description
-              : 'Designing and building systems for companies using my 8+ years of experience in the software engineering industry.'
+              : 'As a highly skilled and experienced Microsoft Azure Solutions Architect with over 9 years of expertise in designing and building highly scalable, reliable, and available systems using Microsoft Azure, I have demonstrated success in driving complex technology projects from conception to implementation. My passion lies in crafting innovative solutions that deliver real business value and empower organizations to achieve their goals.'
           }
           name="description"
         />

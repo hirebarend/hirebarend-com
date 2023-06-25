@@ -12,7 +12,7 @@ export default function Home() {
         <div>
           <a
             className="border p-2 rounded uppercase hover:bg-black hover:text-white"
-            href="https://www.linkedin.com/in/hirebarend/"
+            href="https://www.linkedin.com/in/hirebarend"
             rel="noreferrer"
             target="_blank"
           >
@@ -27,7 +27,7 @@ export default function Home() {
             Hello, I'm Barend Erasmus
           </h1>
           <h2 className="font-normal text-xl md:text-2xl">
-            Designing and building systems for companies
+            Transforming Businesses through Scalable Solutions
           </h2>
         </div>
       </div>
